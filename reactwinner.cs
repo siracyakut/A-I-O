@@ -22,7 +22,7 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
             Timer t = new Timer(100);
-            t.Elapsed += new ElapsedEventHandler(SaniyelikIs);
+            t.Elapsed += new ElapsedEventHandler(rwinner);
             t.Start();
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("Reaction Winner v1.0 Loaded by flareoNNN.");
@@ -30,7 +30,7 @@ namespace ConsoleApp2
             Console.ReadKey();
         }
 
-        static void SaniyelikIs(object o, ElapsedEventArgs a)
+        static void rwinner(object o, ElapsedEventArgs a)
         {
             string belgelerim = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
 
