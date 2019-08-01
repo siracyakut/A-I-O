@@ -26,9 +26,6 @@ if 1	; screen coordinates
   coord=screen
 else
   coord=relative
-tooltip, %coord%	; remind user of the mode
-sleep, 1000
-tooltip, 		; hide the reminder
 
 CoordMode, ToolTip, %coord%
 CoordMode, Pixel, %coord%
