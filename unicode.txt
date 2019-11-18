@@ -10,3 +10,19 @@
 Ş - \u015e
 ç - \u00e7
 Ç - \u00c7
+
+strreplace(name, "\\u011f", "ğ");
+strreplace(name, "\\u011e", "Ğ");
+strreplace(name, "\\u0131", "ı");
+strreplace(name, "\\u0130", "İ");
+strreplace(name, "\\u00f6", "ö");
+strreplace(name, "\\u00d6", "Ö");
+strreplace(name, "\\u00fc", "ü");
+strreplace(name, "\\u00dc", "Ü");
+strreplace(name, "\\u015f", "ş");
+strreplace(name, "\\u015e", "Ş");
+strreplace(name, "\\u00e7", "ç");
+strreplace(name, "\\u00c7", "Ç");
+strreplace(name, "\\u00e2", "â");
+strreplace(name, "\\u00c2", "Â");
+strreplace(name, "\\u00ce", "Î");
